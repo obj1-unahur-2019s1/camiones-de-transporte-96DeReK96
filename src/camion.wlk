@@ -19,4 +19,7 @@ object camion {
 	method objetosPeligrosos(nivel) {
 		return cosas.sum({cosa => cosa.nivelPeligrosidad()})
 	}
+	method objetosMasPeligrososQue(cosa) {
+		
+	}
 }
